@@ -17,7 +17,7 @@ export const articles: Article[] = [
     id: 'the-luminous-revolution',
     title: 'The Luminous Revolution: Why LED Lights Outshine the Old Style',
     introduction: 'Discover why LED lights represent a paradigm shift in lighting technology, offering unparalleled efficiency, longevity, and versatility compared to traditional incandescent and fluorescent bulbs.',
-    content: `<h2><strong>The Incandescent Era: A Warm but Wasteful Glow</strong></h2>
+    content: `<h1>The Incandescent Era: A Warm but Wasteful Glow</h1>
 
 <p>For decades, the incandescent light bulb, a creation of Thomas Edison, was synonymous with artificial illumination. Its mechanism was simple: an electric current heated a tungsten filament to incandescence, producing light. While beloved for its warm, inviting glow and excellent color rendering, the incandescent bulb suffered from a fundamental inefficiency. A staggering 90% of the energy consumed by an incandescent bulb was converted into heat, with only a meager 10% actually producing light. This inefficiency translated directly into higher electricity bills and a significant environmental footprint. Furthermore, their delicate filaments made them prone to breakage, and their average lifespan of around 1,000 hours meant frequent replacements, adding to both cost and waste.</p>
 
