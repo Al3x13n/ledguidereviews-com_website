@@ -4,7 +4,7 @@
 
 /* Custom H2 styling for article content */
 .prose h2 {
-  font-size: 2.5rem; /* 40px - 2 sizes bigger than default */
+  font-size: 1.5rem; /* 24px */
   font-weight: 700;
   line-height: 1.2;
   margin-top: 2rem;
@@ -15,6 +15,6 @@
 /* Ensure responsive sizing */
 @media (max-width: 640px) {
   .prose h2 {
-    font-size: 2rem; /* 32px on mobile */
+    font-size: 1.25rem; /* 20px on mobile */
   }
 }
