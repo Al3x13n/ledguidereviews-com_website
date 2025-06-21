@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom H1 styling for article content */
-.prose h1 {
+/* Custom H2 styling for article content */
+.prose h2 {
   font-size: 2.5rem; /* 40px - 2 sizes bigger than default */
   font-weight: 700;
   line-height: 1.2;
@@ -14,7 +14,7 @@
 
 /* Ensure responsive sizing */
 @media (max-width: 640px) {
-  .prose h1 {
+  .prose h2 {
     font-size: 2rem; /* 32px on mobile */
   }
 }
