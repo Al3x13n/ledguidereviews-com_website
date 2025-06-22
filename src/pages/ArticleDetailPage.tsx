@@ -98,7 +98,10 @@ const ArticleDetailPage: React.FC = () => {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none mb-12 prose-headings:mt-12 prose-headings:mb-6 prose-p:mb-6 prose-p:leading-relaxed prose-ul:mb-6 prose-li:mb-2">
             <p className="lead text-xl text-gray-600 mb-8 leading-relaxed">{article.introduction}</p>
-            <div dangerouslySetInnerHTML={{ __html: article.content }} />
+            <div 
+              dangerouslySetInnerHTML={{ __html: article.content }} 
+              className="article-content"
+            />
           </div>
 
           {/* Keywords */}
@@ -156,6 +159,34 @@ const ArticleDetailPage: React.FC = () => {
           )}
         </div>
       </div>
+
+      <style jsx>{`
+        .article-content .image-container {
+          margin: 2rem 0;
+        }
+        
+        .article-content .image-container img {
+          width: 100%;
+          border-radius: 0.5rem;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .article-content .conclusion-box {
+          margin-top: 2rem;
+          padding: 1.5rem;
+          background-color: #eff6ff;
+          border-radius: 0.5rem;
+        }
+        
+        .article-content .conclusion-box h3 {
+          color: #1e3a8a;
+          margin-bottom: 1rem;
+        }
+        
+        .article-content .conclusion-box p {
+          color: #1e40af;
+        }
+      `}</style>
     </div>
   );
 };
