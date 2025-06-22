@@ -1,5 +1,6 @@
 import { ledStripLightsArticle } from './led-strip-lights-article';
 import { ledBulbGuideArticle } from './led-bulb-guide-article';
+import { ledVsOledArticle } from './led-vs-oled-article';
 
 export interface Article {
   id: string;
@@ -18,6 +19,7 @@ export interface Article {
 export const articles: Article[] = [
   ledStripLightsArticle,
   ledBulbGuideArticle,
+  ledVsOledArticle,
   {
     id: 'the-luminous-revolution',
     title: 'The Luminous Revolution: How LED Technology is Transforming Modern Homes',
@@ -156,65 +158,6 @@ export const articles: Article[] = [
       <p>Choose systems that support regular updates and have strong manufacturer support. Look for compatibility with major smart home platforms like Google Home, Amazon Alexa, or Apple HomeKit to ensure long-term viability.</p>
 
       <p>Smart LED lighting is more than just a convenience—it's an investment in your home's future, offering energy savings, enhanced security, and improved quality of life.</p>
-    `
-  },
-  {
-    id: 'led-vs-oled-displays',
-    title: 'LED vs OLED Displays: Understanding the Technology Behind Your Screens',
-    category: 'Technology',
-    author: 'Alex Kim',
-    date: '2024-12-20',
-    readTime: 9,
-    imageUrl: 'https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=600',
-    introduction: 'Dive deep into the differences between LED and OLED display technologies and learn which is right for your needs.',
-    keywords: ['LED displays', 'OLED technology', 'screen technology', 'display comparison', 'TV technology'],
-    content: `
-      <p>The world of display technology has evolved rapidly, with LED and OLED representing two distinct approaches to creating stunning visual experiences. Understanding the differences between these technologies is crucial for making informed decisions about your next TV, monitor, or mobile device.</p>
-
-      <h2>LED Display Technology</h2>
-      <p>LED displays use Light Emitting Diodes as a backlight source behind an LCD panel. The LCD layer controls which light passes through to create images, while the LED backlight provides the illumination. This technology has dominated the market for years due to its reliability and cost-effectiveness.</p>
-
-      <h3>Types of LED Backlighting</h3>
-      <ul>
-        <li><strong>Edge-lit LED:</strong> LEDs positioned around the screen edges, making displays thinner but potentially less uniform</li>
-        <li><strong>Full-array LED:</strong> LEDs distributed across the entire back panel for better uniformity</li>
-        <li><strong>Mini-LED:</strong> Uses thousands of tiny LEDs for improved contrast and local dimming</li>
-      </ul>
-
-      <h2>OLED Display Technology</h2>
-      <p>Organic Light Emitting Diode (OLED) displays generate light at the pixel level, with each pixel capable of turning completely on or off independently. This fundamental difference enables perfect blacks and infinite contrast ratios.</p>
-
-      <h3>OLED Advantages</h3>
-      <ul>
-        <li><strong>Perfect Blacks:</strong> Pixels can turn completely off, creating true black levels</li>
-        <li><strong>Infinite Contrast:</strong> The ratio between brightest and darkest pixels is theoretically infinite</li>
-        <li><strong>Wide Viewing Angles:</strong> Colors remain accurate from virtually any angle</li>
-        <li><strong>Fast Response Times:</strong> Excellent for gaming and fast-motion content</li>
-      </ul>
-
-      <h2>Brightness and HDR Performance</h2>
-      <p>LED displays, particularly those with full-array backlighting, can achieve much higher peak brightness levels than OLED. This makes them better suited for bright rooms and HDR content that requires high luminance. OLED displays excel in dark room viewing but may struggle in very bright environments.</p>
-
-      <h2>Lifespan and Burn-in Concerns</h2>
-      <p>LED displays typically have longer lifespans and are not susceptible to burn-in. OLED displays, while much improved in recent years, can still experience burn-in with static images displayed for extended periods. However, modern OLED panels include various technologies to mitigate this risk.</p>
-
-      <h2>Energy Efficiency</h2>
-      <p>Energy consumption varies significantly based on content. OLED displays are more efficient when displaying dark content since black pixels consume no power. LED displays maintain consistent power consumption regardless of content, though newer models with local dimming can reduce power usage with dark scenes.</p>
-
-      <h2>Cost Considerations</h2>
-      <p>LED displays generally offer better value for money, especially in larger sizes. OLED technology remains more expensive to manufacture, though prices have decreased significantly in recent years. The cost difference is most pronounced in larger screen sizes.</p>
-
-      <h2>Gaming Performance</h2>
-      <p>Both technologies offer excellent gaming performance, but with different strengths. OLED displays provide faster response times and better motion handling, while high-end LED displays can offer higher refresh rates and better performance in bright gaming environments.</p>
-
-      <h2>Making Your Choice</h2>
-      <p>The choice between LED and OLED depends on your specific needs:</p>
-      <ul>
-        <li>Choose OLED for: Dark room viewing, movie watching, gaming, and when image quality is the top priority</li>
-        <li>Choose LED for: Bright rooms, budget considerations, larger sizes, and when longevity is important</li>
-      </ul>
-
-      <p>Both technologies continue to evolve, with new innovations like QD-OLED and Micro-LED promising to combine the best aspects of each approach.</p>
     `
   }
 ];
