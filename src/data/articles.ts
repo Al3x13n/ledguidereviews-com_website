@@ -1,4 +1,5 @@
 import { ledStripLightsArticle } from './led-strip-lights-article';
+import { ledBulbGuideArticle } from './led-bulb-guide-article';
 
 export interface Article {
   id: string;
@@ -16,6 +17,7 @@ export interface Article {
 
 export const articles: Article[] = [
   ledStripLightsArticle,
+  ledBulbGuideArticle,
   {
     id: 'the-luminous-revolution',
     title: 'The Luminous Revolution: How LED Technology is Transforming Modern Homes',
@@ -154,88 +156,6 @@ export const articles: Article[] = [
       <p>Choose systems that support regular updates and have strong manufacturer support. Look for compatibility with major smart home platforms like Google Home, Amazon Alexa, or Apple HomeKit to ensure long-term viability.</p>
 
       <p>Smart LED lighting is more than just a convenience—it's an investment in your home's future, offering energy savings, enhanced security, and improved quality of life.</p>
-    `
-  },
-  {
-    id: 'choosing-right-led-bulb',
-    title: 'Choosing the Right LED Bulb: Lumens, Watts, and Everything in Between',
-    category: 'Buying Guide',
-    author: 'David Thompson',
-    date: '2024-12-28',
-    readTime: 7,
-    imageUrl: 'https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=600',
-    introduction: 'Navigate the world of LED bulb specifications with confidence. Learn about lumens, watts, color rendering, and more.',
-    keywords: ['LED bulbs', 'lumens', 'watts', 'CRI', 'bulb selection', 'lighting specifications'],
-    content: `
-      <p>Choosing the right LED bulb can seem overwhelming with all the technical specifications and options available. This guide breaks down everything you need to know to make informed decisions for your lighting needs.</p>
-
-      <h2>Understanding Lumens vs. Watts</h2>
-      <p>The shift to LED lighting has changed how we measure light output. While we used to rely on watts as an indicator of brightness, lumens are now the key metric:</p>
-
-      <ul>
-        <li><strong>Lumens:</strong> Measure the actual light output</li>
-        <li><strong>Watts:</strong> Measure energy consumption</li>
-      </ul>
-
-      <p>Here's a quick conversion guide for replacing incandescent bulbs:</p>
-      <ul>
-        <li>40W incandescent = 450 lumens LED</li>
-        <li>60W incandescent = 800 lumens LED</li>
-        <li>75W incandescent = 1100 lumens LED</li>
-        <li>100W incandescent = 1600 lumens LED</li>
-      </ul>
-
-      <h2>Color Rendering Index (CRI)</h2>
-      <p>CRI measures how accurately colors appear under a light source compared to natural sunlight. The scale runs from 0-100, with higher numbers indicating better color accuracy:</p>
-
-      <ul>
-        <li><strong>80-89 CRI:</strong> Good for general lighting</li>
-        <li><strong>90-95 CRI:</strong> Excellent for detailed work and art</li>
-        <li><strong>95+ CRI:</strong> Professional-grade color accuracy</li>
-      </ul>
-
-      <h2>Bulb Shapes and Bases</h2>
-      <p>LED bulbs come in various shapes and base types to fit different fixtures:</p>
-
-      <h3>Common Shapes</h3>
-      <ul>
-        <li><strong>A19:</strong> Standard household bulb shape</li>
-        <li><strong>BR30/BR40:</strong> Flood lights for recessed cans</li>
-        <li><strong>PAR20/PAR30:</strong> Spot lights for track lighting</li>
-        <li><strong>G25:</strong> Globe bulbs for vanities</li>
-        <li><strong>B11/E12:</strong> Candelabra bulbs for chandeliers</li>
-      </ul>
-
-      <h3>Base Types</h3>
-      <ul>
-        <li><strong>E26:</strong> Standard screw base</li>
-        <li><strong>E12:</strong> Candelabra base</li>
-        <li><strong>GU10:</strong> Twist-lock base for track lighting</li>
-        <li><strong>G4/G9:</strong> Pin bases for specialty fixtures</li>
-      </ul>
-
-      <h2>Dimming Compatibility</h2>
-      <p>Not all LED bulbs are dimmable, and compatibility with existing dimmer switches varies. Look for bulbs specifically labeled as "dimmable" and check compatibility with your dimmer type. Some older dimmers may cause flickering or buzzing with LED bulbs.</p>
-
-      <h2>Beam Angle Considerations</h2>
-      <p>Beam angle determines how light is distributed:</p>
-      <ul>
-        <li><strong>Narrow (15-30°):</strong> Accent lighting, artwork</li>
-        <li><strong>Medium (35-60°):</strong> Task lighting, reading</li>
-        <li><strong>Wide (80-120°):</strong> General room lighting</li>
-      </ul>
-
-      <h2>Quality Indicators</h2>
-      <p>When shopping for LED bulbs, look for these quality indicators:</p>
-      <ul>
-        <li><strong>ENERGY STAR certification:</strong> Ensures efficiency and quality standards</li>
-        <li><strong>Warranty period:</strong> Longer warranties indicate manufacturer confidence</li>
-        <li><strong>Brand reputation:</strong> Established lighting manufacturers typically offer better quality</li>
-        <li><strong>Customer reviews:</strong> Real-world performance feedback</li>
-      </ul>
-
-      <h2>Making the Final Decision</h2>
-      <p>Consider your specific needs: task lighting requires higher lumens and good CRI, while ambient lighting can use lower output bulbs. Factor in the fixture type, room size, and intended use to make the best choice for your space.</p>
     `
   },
   {
